@@ -234,23 +234,6 @@ int initialize_parameter_handles(ParameterHandles &parameter_handles)
 	(void)param_find("PWM_AUX_MAX");
 	(void)param_find("PWM_AUX_DISARMED");
 
-	(void)param_find("PWM_MAIN_DIS1");
-	(void)param_find("PWM_MAIN_DIS2");
-	(void)param_find("PWM_MAIN_DIS3");
-	(void)param_find("PWM_MAIN_DIS4");
-	(void)param_find("PWM_MAIN_DIS5");
-	(void)param_find("PWM_MAIN_DIS6");
-	(void)param_find("PWM_MAIN_DIS7");
-	(void)param_find("PWM_MAIN_DIS8");
-	(void)param_find("PWM_AUX_DIS1");
-	(void)param_find("PWM_AUX_DIS2");
-	(void)param_find("PWM_AUX_DIS3");
-	(void)param_find("PWM_AUX_DIS4");
-	(void)param_find("PWM_AUX_DIS5");
-	(void)param_find("PWM_AUX_DIS6");
-
-
-
 	(void)param_find("TRIG_MODE");
 	(void)param_find("UAVCAN_ENABLE");
 	(void)param_find("SYS_MC_EST_GROUP");
