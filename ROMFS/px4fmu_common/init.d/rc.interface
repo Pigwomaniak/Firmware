@@ -104,45 +104,14 @@ then
 		#
 		# Per channel disarmed settings
 		#
-		if param greater PWM_MAIN_DIS1 0
-		then
-			pwm disarmed -c 1 -p p:PWM_MAIN_DIS1
-		fi
-
-		if param greater PWM_MAIN_DIS2 0
-		then
-			pwm disarmed -c 2 -p p:PWM_MAIN_DIS2
-		fi
-
-		if param greater PWM_MAIN_DIS3 0
-		then
-			pwm disarmed -c 3 -p p:PWM_MAIN_DIS3
-		fi
-
-		if param greater PWM_MAIN_DIS4 0
-		then
-			pwm disarmed -c 4 -p p:PWM_MAIN_DIS4
-		fi
-
-		if param greater PWM_MAIN_DIS5 0
-		then
-			pwm disarmed -c 5 -p p:PWM_MAIN_DIS5
-		fi
-
-		if param greater PWM_MAIN_DIS6 0
-		then
-			pwm disarmed -c 6 -p p:PWM_MAIN_DIS6
-		fi
-
-		if param greater PWM_MAIN_DIS7 0
-		then
-			pwm disarmed -c 7 -p p:PWM_MAIN_DIS7
-		fi
-
-		if param greater PWM_MAIN_DIS8 0
-		then
-			pwm disarmed -c 8 -p p:PWM_MAIN_DIS8
-		fi
+		pwm disarmed -c 1 -p p:PWM_MAIN_DIS1
+		pwm disarmed -c 2 -p p:PWM_MAIN_DIS2
+		pwm disarmed -c 3 -p p:PWM_MAIN_DIS3
+		pwm disarmed -c 4 -p p:PWM_MAIN_DIS4
+		pwm disarmed -c 5 -p p:PWM_MAIN_DIS5
+		pwm disarmed -c 6 -p p:PWM_MAIN_DIS6
+		pwm disarmed -c 7 -p p:PWM_MAIN_DIS7
+		pwm disarmed -c 8 -p p:PWM_MAIN_DIS8
 
 	fi
 
@@ -275,37 +244,12 @@ then
 		#
 		# Per channel disarmed settings
 		#
-		if param greater PWM_AUX_DIS1 0
-		then
-			pwm disarmed -c 1 -p p:PWM_AUX_DIS1 -d ${OUTPUT_AUX_DEV}
-		fi
-
-		if param greater PWM_AUX_DIS2 0
-		then
-			pwm disarmed -c 2 -p p:PWM_AUX_DIS2 -d ${OUTPUT_AUX_DEV}
-		fi
-
-		if param greater PWM_AUX_DIS3 0
-		then
-			pwm disarmed -c 3 -p p:PWM_AUX_DIS3 -d ${OUTPUT_AUX_DEV}
-		fi
-
-		if param greater PWM_AUX_DIS4 0
-		then
-			pwm disarmed -c 4 -p p:PWM_AUX_DIS4 -d ${OUTPUT_AUX_DEV}
-		fi
-
-		if param greater PWM_AUX_DIS5 0
-		then
-			pwm disarmed -c 5 -p p:PWM_AUX_DIS5 -d ${OUTPUT_AUX_DEV}
-		fi
-
-		if param greater PWM_AUX_DIS6 0
-		then
-			pwm disarmed -c 6 -p p:PWM_AUX_DIS6 -d ${OUTPUT_AUX_DEV}
-		fi
-
-
+		pwm disarmed -c 1 -p p:PWM_AUX_DIS1 -d ${OUTPUT_AUX_DEV}
+		pwm disarmed -c 2 -p p:PWM_AUX_DIS2 -d ${OUTPUT_AUX_DEV}
+		pwm disarmed -c 3 -p p:PWM_AUX_DIS3 -d ${OUTPUT_AUX_DEV}
+		pwm disarmed -c 4 -p p:PWM_AUX_DIS4 -d ${OUTPUT_AUX_DEV}
+		pwm disarmed -c 5 -p p:PWM_AUX_DIS5 -d ${OUTPUT_AUX_DEV}
+		pwm disarmed -c 6 -p p:PWM_AUX_DIS6 -d ${OUTPUT_AUX_DEV}
 
 
 		if [ $FAILSAFE_AUX != none ]

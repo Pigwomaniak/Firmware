@@ -3435,211 +3435,211 @@ PARAM_DEFINE_INT32(PWM_DISARMED, 900);
  * Set the disarmed PWM for the main 1 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS1, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS1, -1);
 
 /**
  * Set the disarmed PWM for the main 2 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS2, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS2, -1);
 
 /**
  * Set the disarmed PWM for the main 3 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS3, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS3, -1);
 
 /**
  * Set the disarmed PWM for the main 4 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS4, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS4, -1);
 
 /**
  * Set the disarmed PWM for the main 5 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS5, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS5, -1);
 
 /**
  * Set the disarmed PWM for the main 6 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS6, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS6, -1);
 
 /**
  * Set the disarmed PWM for the main 7 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS7, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS7, -1);
 
 /**
  * Set the disarmed PWM for the main 8 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_DISARMED will be used
+ * When set to -1 the value for PWM_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_MAIN_DIS8, 0);
+PARAM_DEFINE_INT32(PWM_MAIN_DIS8, -1);
 
 /**
  * Set the disarmed PWM for the AUX 1 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_AUX_DISARMED will be used
+ * When set to -1 the value for PWM_AUX_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_AUX_DIS1, 0);
+PARAM_DEFINE_INT32(PWM_AUX_DIS1, -1);
 
 /**
  * Set the disarmed PWM for the AUX 2 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_AUX_DISARMED will be used
+ * When set to -1 the value for PWM_AUX_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_AUX_DIS2, 0);
+PARAM_DEFINE_INT32(PWM_AUX_DIS2, -1);
 
 /**
  * Set the disarmed PWM for the AUX 3 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_AUX_DISARMED will be used
+ * When set to -1 the value for PWM_AUX_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_AUX_DIS3, 0);
+PARAM_DEFINE_INT32(PWM_AUX_DIS3, -1);
 
 /**
  * Set the disarmed PWM for the AUX 4 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_AUX_DISARMED will be used
+ * When set to -1 the value for PWM_AUX_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_AUX_DIS4, 0);
+PARAM_DEFINE_INT32(PWM_AUX_DIS4, -1);
 
 /**
  * Set the disarmed PWM for the AUX 5 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_AUX_DISARMED will be used
+ * When set to -1 the value for PWM_AUX_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_AUX_DIS5, 0);
+PARAM_DEFINE_INT32(PWM_AUX_DIS5, -1);
 
 /**
  * Set the disarmed PWM for the AUX 6 output
  *
  * This is the PWM pulse the autopilot is outputting if not armed.
- * When set to 0 the value for PWM_AUX_DISARMED will be used
+ * When set to -1 the value for PWM_AUX_DISARMED will be used
  *
  * @reboot_required true
  *
- * @min 0
+ * @min -1
  * @max 2200
  * @unit us
  * @group PWM Outputs
  */
-PARAM_DEFINE_INT32(PWM_AUX_DIS6, 0);
+PARAM_DEFINE_INT32(PWM_AUX_DIS6, -1);
 
 /**
  * Set the minimum PWM for the auxiliary outputs
