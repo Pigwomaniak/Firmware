@@ -240,16 +240,20 @@ then
 		then
 			pwm disarmed -c ${PWM_ACHDIS} -p ${PWM_AUX_DISARMED} -d ${OUTPUT_AUX_DEV}
 		fi
+
+		if [ $PWM_AUX_OUT != none ]
+		then
 		
-		#
-		# Per channel disarmed settings
-		#
-		pwm disarmed -c 1 -p p:PWM_AUX_DIS1 -d ${OUTPUT_AUX_DEV}
-		pwm disarmed -c 2 -p p:PWM_AUX_DIS2 -d ${OUTPUT_AUX_DEV}
-		pwm disarmed -c 3 -p p:PWM_AUX_DIS3 -d ${OUTPUT_AUX_DEV}
-		pwm disarmed -c 4 -p p:PWM_AUX_DIS4 -d ${OUTPUT_AUX_DEV}
-		pwm disarmed -c 5 -p p:PWM_AUX_DIS5 -d ${OUTPUT_AUX_DEV}
-		pwm disarmed -c 6 -p p:PWM_AUX_DIS6 -d ${OUTPUT_AUX_DEV}
+		    #
+		    # Per channel disarmed settings
+		    #
+		    pwm disarmed -c 1 -p p:PWM_AUX_DIS1 -d ${OUTPUT_AUX_DEV}
+		    pwm disarmed -c 2 -p p:PWM_AUX_DIS2 -d ${OUTPUT_AUX_DEV}
+		    pwm disarmed -c 3 -p p:PWM_AUX_DIS3 -d ${OUTPUT_AUX_DEV}
+		    pwm disarmed -c 4 -p p:PWM_AUX_DIS4 -d ${OUTPUT_AUX_DEV}
+		    pwm disarmed -c 5 -p p:PWM_AUX_DIS5 -d ${OUTPUT_AUX_DEV}
+		    pwm disarmed -c 6 -p p:PWM_AUX_DIS6 -d ${OUTPUT_AUX_DEV}
+		fi
 
 
 		if [ $FAILSAFE_AUX != none ]
