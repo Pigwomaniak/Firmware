@@ -1,0 +1,39 @@
+#!nsh
+#
+# @name Kaszalot
+#
+# @type VTOL Tiltrotor
+# @class VTOL
+#
+# @maintainer Maciek Podsedkowski <mpodsedkowski@gmail.com>
+#
+
+sh /etc/init.d/rc.vtol_defaults
+
+if [ $AUTOCNF == yes ]
+then
+param set VT_TYPE 1
+param set VT_TILT_MC 0.08
+param set VT_TILT_TRANS 0.5
+param set VT_TILT_FW 0.9
+
+param set VT_MOT_COUNT 4
+param set VT_FW_MOT_OFFID 0
+param set VT_IDLE_PWM_MC 1080
+param set VT_TYPE 1
+fi
+
+set MIXER kaszalot
+set PWM_OUT 6
+set PWM_RATE 400
+set PWM_MAX 2000
+
+set MIXER_AUX kaszalot
+set PWM_AUX_RATE 50
+set PWM_AUX_RATE 4
+set PWM_AUX_MIN 700
+set PWM_AUX_MAX 2300
+set PWM_AUX_DISARMED 1000
+
+set MAV_TYPE 21
+
